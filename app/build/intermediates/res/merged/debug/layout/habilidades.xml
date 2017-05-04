@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    tools:context=".Habilidades" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:paddingTop="40dp"
+        android:text="@string/habilidades"
+        android:textSize="17sp" />
+
+    <LinearLayout
+        android:id="@+id/checkBoxCombo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:orientation="vertical"
+        android:paddingLeft="25dp" >
+
+        <CheckBox
+            android:id="@+id/ck_escrita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickHabilidades"
+            android:text="@string/escrita" />
+
+        <CheckBox
+            android:id="@+id/ck_leitura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:onClick="onClickHabilidades"
+            android:text="@string/leitura" />
+
+        <CheckBox
+            android:id="@+id/ck_digitacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:onClick="onClickHabilidades"
+            android:text="@string/digitacao" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/habilidades_ok"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBoxCombo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/botao_configuracoes"
+        android:text="@string/ok"
+        android:textColor="#FFFFFF" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:max="6"
+        android:progress="5" />
+
+</RelativeLayout>

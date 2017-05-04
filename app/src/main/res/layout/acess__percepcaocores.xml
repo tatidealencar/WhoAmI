@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:paddingBottom="15dp"
+            android:paddingTop="40dp"
+            android:text="@string/texto_cores"
+            android:textSize="17sp" />
+
+        <RelativeLayout
+            android:id="@+id/vermelho"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_marginBottom="30dp"
+            android:gravity="center" >
+
+            <RadioGroup
+                android:id="@+id/botoes_radio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingRight="30dp" >
+
+                <RadioButton
+                    android:id="@+id/radio_vermelho"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/vermelho" />
+
+                <RadioButton
+                    android:id="@+id/radio_outros_vermelho"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/outra_cor" />
+            </RadioGroup>
+
+            <View
+                android:id="@+id/circulo_vermelho"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:layout_toRightOf="@+id/botoes_radio1"
+                android:background="@drawable/circulo_vermelho" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/verde"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vermelho"
+            android:gravity="center" >
+
+            <RadioGroup
+                android:id="@+id/botoes_radio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingRight="30dp" >
+
+                <RadioButton
+                    android:id="@+id/radio_verde"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/verde" />
+
+                <RadioButton
+                    android:id="@+id/radio_outros_verde"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/outra_cor" />
+            </RadioGroup>
+
+            <View
+                android:id="@+id/circulo_verde"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:layout_toRightOf="@+id/botoes_radio2"
+                android:background="@drawable/circulo_verde" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/Visao_ok"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/verde"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="60dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/botao_configuracoes"
+            android:onClick="onClickPercepcaoCores"
+            android:text="@string/ok"
+            android:textColor="#FFFFFF" />
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:max="6"
+            android:paddingBottom="20dp"
+            android:progress="4" />
+    </RelativeLayout>
+
+</ScrollView>

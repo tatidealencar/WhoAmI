@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/descricao_imagem_acess_visao"
+            android:paddingTop="25dp"
+            android:src="@drawable/visao" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="17dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/visao"
+            android:textSize="17sp" />
+
+        <LinearLayout
+            android:id="@+id/checkBoxCombo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:orientation="vertical"
+            android:paddingLeft="25dp" >
+
+            <CheckBox
+                android:id="@+id/visao_opcao1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/visao_opcao1" />
+
+            <CheckBox
+                android:id="@+id/visao_opcao2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/visao_opcao2" />
+
+            <CheckBox
+                android:id="@+id/visao_opcao3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/visao_opcao3" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/Visao_ok"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBoxCombo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="60dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/botao_configuracoes"
+            android:onClick="onClickVisao"
+            android:text="@string/ok"
+            android:textColor="#FFFFFF" />
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:max="6"
+            android:paddingBottom="20dp"
+            android:progress="3" />
+    </RelativeLayout>
+
+</ScrollView>

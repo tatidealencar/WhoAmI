@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/senha_de_acesso"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/senha_de_acesso"/>
+    <item
+        android:id="@+id/fazer_backup"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/fazer_backup"/>
+    <item
+        android:id="@+id/politica_privacidade"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/politica_de_privacidade"/>
+
+</menu>

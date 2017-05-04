@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\libs\mail.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="428e267abff0d10802ccde86b915da2c20471160">
+        <dex dex="C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\build\intermediates\pre-dexed\debug\mail_b48f11fe29bd63337b267e7c89474c8c4afb3e0a.jar" />
+    </item>
+    <item
+        jar="C:\adt-bundle-windows-x86_64-20130219\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0_d91d383466803f219dd31048acbd4feb17b30608.jar" />
+    </item>
+    <item
+        jar="C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="380bd8231fde1b0ad545c39e5cae351f0c66c2ad">
+        <dex dex="C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_5c0aa616e5a8f181c8832c53aec62c4d3104cb6c.jar" />
+    </item>
+    <item
+        jar="C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\libs\volley.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="355d92b3c1e60c648fe12bdfbc082a6c52b5b0aa">
+        <dex dex="C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\build\intermediates\pre-dexed\debug\volley_46630980fe53bfdaf9f3f0cd0ed18b10ebb03d2e.jar" />
+    </item>
+    <item
+        jar="C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="60b0034c9169f6f2b9914ea5dd9778ffe55e2128">
+        <dex dex="C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\build\intermediates\pre-dexed\debug\instant-run_79684a8800359030b7a0e8d503896db8e8e39c0d.jar" />
+    </item>
+    <item
+        jar="C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\libs\activation.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="d1257cbff6faa44c1f325ae0d9413522d4644383">
+        <dex dex="C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\build\intermediates\pre-dexed\debug\activation_cf8480f0959a745a1fd31597154d9b4dc307a476.jar" />
+    </item>
+    <item
+        jar="C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\libs\WebADM.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="7988e3e87442f4df3733610ea7ed16d0aed81a62">
+        <dex dex="C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\build\intermediates\pre-dexed\debug\WebADM_46ba8602ad5593a62f69258617793b046774c2db.jar" />
+    </item>
+    <item
+        jar="C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\libs\additionnal.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="bd9e8dc422bb8c8405359947fe9f4282b49f57f4">
+        <dex dex="C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\build\intermediates\pre-dexed\debug\additionnal_66640dbac1d2558760b1ceb832c230bbb61741a7.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:onClick="onClickPrefFilmes"
+            android:text="@string/generos_cinematograficos"
+            android:textSize="17sp" />
+
+        <CheckBox
+            android:id="@+id/filme1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefFilmes"
+            android:text="@string/acao" />
+
+        <CheckBox
+            android:id="@+id/filme2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefFilmes"
+            android:text="@string/animacao" />
+
+        <CheckBox
+            android:id="@+id/filme3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefFilmes"
+            android:text="@string/artes_marciais" />
+
+        <CheckBox
+            android:id="@+id/filme4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefFilmes"
+            android:text="@string/aventura" />
+
+        <CheckBox
+            android:id="@+id/filme5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefFilmes"
+            android:text="@string/classicos" />
+
+        <CheckBox
+            android:id="@+id/filme6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefFilmes"
+            android:text="@string/comedia" />
+
+        <CheckBox
+            android:id="@+id/filme7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefFilmes"
+            android:text="@string/criancas_e_familia" />
+
+        <CheckBox
+            android:id="@+id/filme8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefFilmes"
+            android:text="@string/crime" />
+
+        <CheckBox
+            android:id="@+id/filme9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefFilmes"
+            android:text="@string/cult" />
+
+        <CheckBox
+            android:id="@+id/filme10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefFilmes"
+            android:text="@string/documentario" />
+
+        <CheckBox
+            android:id="@+id/filme11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefFilmes"
+            android:text="@string/drama" />
+
+        <CheckBox
+            android:id="@+id/filme12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefFilmes"
+            android:text="@string/esportes_e_exercicios" />
+
+        <CheckBox
+            android:id="@+id/filme13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefFilmes"
+            android:text="@string/estrangeiro" />
+
+        <CheckBox
+            android:id="@+id/filme14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefFilmes"
+            android:text="@string/fantasia" />
+
+        <CheckBox
+            android:id="@+id/filme15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefFilmes"
+            android:text="@string/ficcao_cientifica" />
+
+        <CheckBox
+            android:id="@+id/filme16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefFilmes"
+            android:text="@string/filmes_de_faroeste" />
+
+        <CheckBox
+            android:id="@+id/filme17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefFilmes"
+            android:text="@string/telefilmes" />
+
+        <CheckBox
+            android:id="@+id/filme18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefFilmes"
+            android:text="@string/guerra" />
+
+        <CheckBox
+            android:id="@+id/filme19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefFilmes"
+            android:text="@string/misterio" />
+
+        <CheckBox
+            android:id="@+id/filme20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefFilmes"
+            android:text="@string/musica_e_concerto" />
+
+        <CheckBox
+            android:id="@+id/filme21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefFilmes"
+            android:text="@string/musicais" />
+
+        <CheckBox
+            android:id="@+id/filme22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefFilmes"
+            android:text="@string/novela" />
+
+        <CheckBox
+            android:id="@+id/filme23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefFilmes"
+            android:text="@string/romance" />
+
+        <CheckBox
+            android:id="@+id/filme24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefFilmes"
+            android:text="@string/suspense" />
+
+        <CheckBox
+            android:id="@+id/filme25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefFilmes"
+            android:text="@string/terror" />
+
+        <Button
+            android:id="@+id/salvar_pref_filmes"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/botao_configuracoes"
+            android:text="@string/proximo"
+            android:textColor="#FFFFFF" />
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:max="5"
+            android:progress="0" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/recreacao"
+            android:textSize="17sp" />
+
+        <CheckBox
+            android:id="@+id/recreacao1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/acampamento" />
+
+        <CheckBox
+            android:id="@+id/recreacao2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/animais_de_estimacao" />
+
+        <CheckBox
+            android:id="@+id/recreacao3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/aquarios" />
+
+        <CheckBox
+            android:id="@+id/recreacao4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/artes" />
+
+        <CheckBox
+            android:id="@+id/recreacao5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/brinquedos" />
+
+        <CheckBox
+            android:id="@+id/recreacao6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/caca" />
+
+        <CheckBox
+            android:id="@+id/recreacao7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/caminhadas" />
+
+        <CheckBox
+            android:id="@+id/recreacao8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/ciclismo" />
+
+        <CheckBox
+            android:id="@+id/recreacao9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/circo" />
+
+        <CheckBox
+            android:id="@+id/recreacao10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/colecionismo" />
+
+        <CheckBox
+            android:id="@+id/recreacao11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/danca" />
+
+        <CheckBox
+            android:id="@+id/recreacao12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/fantoches" />
+
+        <CheckBox
+            android:id="@+id/recreacao13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/feiras" />
+
+        <CheckBox
+            android:id="@+id/recreacao14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/festivais" />
+
+        <CheckBox
+            android:id="@+id/recreacao15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/filmes" />
+
+        <CheckBox
+            android:id="@+id/recreacao16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/fogos_de_artificio" />
+
+        <CheckBox
+            android:id="@+id/recreacao17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/fotografia" />
+
+        <CheckBox
+            android:id="@+id/recreacao18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/galerias_de_arte" />
+
+        <CheckBox
+            android:id="@+id/recreacao19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/humor" />
+
+        <CheckBox
+            android:id="@+id/recreacao20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/jardinagem" />
+
+        <CheckBox
+            android:id="@+id/recreacao21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/jogos" />
+
+        <CheckBox
+            android:id="@+id/recreacao22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/jogos_de_adivinhacao" />
+
+        <CheckBox
+            android:id="@+id/recreacao23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/jogos_de_azar" />
+
+        <CheckBox
+            android:id="@+id/recreacao24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/jogos_de_palavras" />
+
+        <CheckBox
+            android:id="@+id/recreacao25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/livros" />
+
+        <CheckBox
+            android:id="@+id/recreacao26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/loterias" />
+
+        <CheckBox
+            android:id="@+id/recreacao27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/malabarismo" />
+
+        <CheckBox
+            android:id="@+id/recreacao28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/mochilagem" />
+
+        <CheckBox
+            android:id="@+id/recreacao29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/modelos_ferroviarios" />
+
+        <CheckBox
+            android:id="@+id/recreacao30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/montanhas_russas" />
+
+        <CheckBox
+            android:id="@+id/recreacao31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/museus" />
+
+        <CheckBox
+            android:id="@+id/recreacao32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/nos_e_emendas" />
+
+        <CheckBox
+            android:id="@+id/recreacao33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/observacao_de_aves" />
+
+        <CheckBox
+            android:id="@+id/recreacao34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/palavras_cruzadas" />
+
+        <CheckBox
+            android:id="@+id/recreacao35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/pesca" />
+
+        <CheckBox
+            android:id="@+id/recreacao36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/pipas" />
+
+        <CheckBox
+            android:id="@+id/recreacao37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/praias" />
+
+        <CheckBox
+            android:id="@+id/recreacao38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/quebra_cabecas" />
+
+        <CheckBox
+            android:id="@+id/recreacao39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/radio" />
+
+        <CheckBox
+            android:id="@+id/recreacao40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/rafting" />
+
+        <CheckBox
+            android:id="@+id/recreacao41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/televisao" />
+
+        <CheckBox
+            android:id="@+id/recreacao42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/truques_com_cartas" />
+
+        <CheckBox
+            android:id="@+id/recreacao43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/truques_de_magica" />
+
+        <CheckBox
+            android:id="@+id/recreacao44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/viagens" />
+
+        <CheckBox
+            android:id="@+id/recreacao45"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefRecreacao"
+            android:text="@string/zoologicos" />
+
+        <Button
+            android:id="@+id/salvar_pref_recreacao"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/botao_configuracoes"
+            android:text="@string/proximo"
+            android:textColor="#FFFFFF" />
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:max="5"
+            android:progress="3" />
+    </LinearLayout>
+
+</ScrollView>

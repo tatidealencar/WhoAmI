@@ -1,0 +1,377 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:2:1-295:12
+	package
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:3:5-34
+		INJECTED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:6:5-30
+		INJECTED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:5:5-28
+		INJECTED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:4:5-35
+uses-sdk
+ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:8:5-10:41
+	android:targetSdkVersion
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:10:9-38
+		INJECTED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:9:9-34
+		INJECTED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:12:22-64
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:13:5-68
+	android:name
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:13:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:14:5-74
+	android:name
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:14:22-71
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:15:5-78
+	android:name
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:15:22-75
+application
+ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:17:5-293:19
+	android:label
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:20:9-41
+	android:allowBackup
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:18:9-35
+	android:icon
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:19:9-44
+	android:theme
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:21:9-40
+activity#br.dc.ufscar.whoami.activity.Home
+ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:22:9-26:20
+	android:screenOrientation
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:25:13-49
+	android:label
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:24:13-45
+	android:name
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:23:13-61
+activity#br.dc.ufscar.whoami.activity.Configuracoes
+ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:27:9-35:20
+	android:screenOrientation
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:31:13-49
+	android:label
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:29:13-65
+	android:parentActivityName
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:30:13-75
+	android:name
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:28:13-70
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:32:13-34:69
+	android:value
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:34:17-66
+	android:name
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:33:17-63
+activity#br.dc.ufscar.whoami.activity.privacidadeseguranca.ExportaPerfil
+ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:36:9-44:20
+	android:screenOrientation
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:40:13-49
+	android:label
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:38:13-66
+	android:parentActivityName
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:39:13-75
+	android:name
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:37:13-91
+activity#br.dc.ufscar.whoami.activity.privacidadeseguranca.PoliticaPrivacidade
+ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:45:9-53:20
+	android:screenOrientation
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:49:13-49
+	android:label
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:47:13-72
+	android:parentActivityName
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:48:13-75
+	android:name
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:46:13-97
+activity#br.dc.ufscar.whoami.activity.privacidadeseguranca.SenhaAcesso
+ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:54:9-62:20
+	android:screenOrientation
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:58:13-49
+	android:label
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:56:13-64
+	android:parentActivityName
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:57:13-75
+	android:name
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:55:13-89
+activity#br.dc.ufscar.whoami.activity.acessibilidade.AcessLocomocao
+ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:63:9-71:20
+	android:screenOrientation
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:67:13-49
+	android:label
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:65:13-68
+	android:parentActivityName
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:66:13-75
+	android:name
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:64:13-86
+activity#br.dc.ufscar.whoami.activity.acessibilidade.AcessAudicao
+ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:72:9-80:20
+	android:screenOrientation
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:76:13-49
+	android:label
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:74:13-68
+	android:parentActivityName
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:75:13-75
+	android:name
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:73:13-84
+activity#br.dc.ufscar.whoami.activity.acessibilidade.AcessFala
+ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:81:9-89:20
+	android:screenOrientation
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:85:13-49
+	android:label
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:83:13-68
+	android:parentActivityName
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:84:13-75
+	android:name
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:82:13-81
+activity#br.dc.ufscar.whoami.activity.acessibilidade.AcessVisao
+ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:90:9-98:20
+	android:screenOrientation
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:94:13-49
+	android:label
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:92:13-68
+	android:parentActivityName
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:93:13-75
+	android:name
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:91:13-82
+activity#br.dc.ufscar.whoami.activity.acessibilidade.AcessPercepcaoCores
+ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:99:9-107:20
+	android:screenOrientation
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:103:13-49
+	android:label
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:101:13-68
+	android:parentActivityName
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:102:13-75
+	android:name
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:100:13-91
+activity#br.dc.ufscar.whoami.activity.acessibilidade.Habilidades
+ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:108:9-116:20
+	android:screenOrientation
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:112:13-49
+	android:label
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:110:13-68
+	android:parentActivityName
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:111:13-75
+	android:name
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:109:13-83
+activity#br.dc.ufscar.whoami.activity.DadosPessoais
+ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:117:9-125:20
+	android:screenOrientation
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:121:13-49
+	android:label
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:119:13-68
+	android:parentActivityName
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:120:13-75
+	android:name
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:118:13-70
+activity#br.dc.ufscar.whoami.activity.Caracteristicas
+ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:126:9-134:20
+	android:screenOrientation
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:130:13-49
+	android:label
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:128:13-67
+	android:parentActivityName
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:129:13-75
+	android:name
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:127:13-72
+activity#br.dc.ufscar.whoami.activity.preferencias.PreferenciasMain
+ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:135:9-143:20
+	android:screenOrientation
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:139:13-49
+	android:label
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:137:13-69
+	android:parentActivityName
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:138:13-75
+	android:name
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:136:13-86
+activity#br.dc.ufscar.whoami.activity.preferencias.PrefInputOutput
+ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:144:9-152:20
+	android:screenOrientation
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:148:13-49
+	android:label
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:146:13-66
+	android:parentActivityName
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:147:13-75
+	android:name
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:145:13-85
+activity#br.dc.ufscar.whoami.activity.preferencias.PrefFilmes
+ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:153:9-161:20
+	android:screenOrientation
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:157:13-49
+	android:label
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:155:13-67
+	android:parentActivityName
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:156:13-75
+	android:name
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:154:13-80
+activity#br.dc.ufscar.whoami.activity.preferencias.PrefSaude
+ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:162:9-170:20
+	android:screenOrientation
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:166:13-49
+	android:label
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:164:13-62
+	android:parentActivityName
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:165:13-75
+	android:name
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:163:13-79
+activity#br.dc.ufscar.whoami.activity.preferencias.PrefApresentacaoInfo
+ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:171:9-179:20
+	android:screenOrientation
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:175:13-49
+	android:label
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:173:13-75
+	android:parentActivityName
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:174:13-75
+	android:name
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:172:13-90
+activity#br.dc.ufscar.whoami.activity.preferencias.PrefNotificacoes
+ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:180:9-188:20
+	android:screenOrientation
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:184:13-49
+	android:label
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:182:13-70
+	android:parentActivityName
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:183:13-75
+	android:name
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:181:13-86
+activity#br.dc.ufscar.whoami.activity.preferencias.PrefLayout
+ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:189:9-197:20
+	android:screenOrientation
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:193:13-49
+	android:label
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:191:13-63
+	android:parentActivityName
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:192:13-75
+	android:name
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:190:13-80
+activity#br.dc.ufscar.whoami.activity.preferencias.PrefGenMusical
+ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:198:9-206:20
+	android:screenOrientation
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:202:13-49
+	android:label
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:200:13-68
+	android:parentActivityName
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:201:13-75
+	android:name
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:199:13-84
+activity#br.dc.ufscar.whoami.activity.preferencias.PrefJogos
+ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:207:9-215:20
+	android:screenOrientation
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:211:13-49
+	android:label
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:209:13-62
+	android:parentActivityName
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:210:13-75
+	android:name
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:208:13-79
+activity#br.dc.ufscar.whoami.activity.preferencias.PrefRecreacao
+ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:216:9-224:20
+	android:screenOrientation
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:220:13-49
+	android:label
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:218:13-66
+	android:parentActivityName
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:219:13-75
+	android:name
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:217:13-83
+activity#br.dc.ufscar.whoami.activity.preferencias.PrefEsportes
+ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:225:9-233:20
+	android:screenOrientation
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:229:13-49
+	android:label
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:227:13-65
+	android:parentActivityName
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:228:13-75
+	android:name
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:226:13-82
+activity#br.dc.ufscar.whoami.activity.Welcome
+ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:234:9-243:20
+	android:screenOrientation
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:237:13-49
+	android:label
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:236:13-45
+	android:name
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:235:13-64
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:238:13-242:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:239:17-69
+	android:name
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:239:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:241:17-77
+	android:name
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:241:27-74
+activity#br.dc.ufscar.whoami.activity.privacidadeseguranca.Login
+ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:244:9-248:20
+	android:screenOrientation
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:247:13-49
+	android:label
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:246:13-57
+	android:name
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:245:13-83
+activity#br.dc.ufscar.whoami.activity.privacidadeseguranca.RecuperarSenha
+ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:249:9-253:20
+	android:screenOrientation
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:252:13-49
+	android:label
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:251:13-67
+	android:name
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:250:13-92
+activity#br.dc.ufscar.whoami.activity.facebook.PreImportacao
+ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:254:9-262:20
+	android:screenOrientation
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:258:13-49
+	android:label
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:256:13-66
+	android:parentActivityName
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:257:13-75
+	android:name
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:255:13-79
+activity#br.dc.ufscar.whoami.activity.facebook.SaibaMais
+ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:263:9-271:20
+	android:screenOrientation
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:267:13-49
+	android:label
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:265:13-62
+	android:parentActivityName
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:266:13-75
+	android:name
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:264:13-75
+activity#br.dc.ufscar.whoami.activity.facebook.EscolhaDadosImportacao
+ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:272:9-280:20
+	android:screenOrientation
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:276:13-49
+	android:label
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:274:13-76
+	android:parentActivityName
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:275:13-75
+	android:name
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:273:13-88
+activity#br.dc.ufscar.whoami.activity.facebook.PosImportacao
+ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:281:9-289:20
+	android:screenOrientation
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:285:13-49
+	android:label
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:283:13-66
+	android:parentActivityName
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:284:13-75
+	android:name
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:282:13-79
+service#br.dc.ufscar.whoami.services.PostUserProfileService
+ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:291:9-292:19
+	android:name
+		ADDED from C:\Users\tatid\AndroidStudioProjects\WhoAmI2\app\src\main\AndroidManifest.xml:291:18-84

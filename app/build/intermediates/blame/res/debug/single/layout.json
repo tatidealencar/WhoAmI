@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pref_recreacao.xml",
+        "source": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\src\\main\\res\\layout\\pref_recreacao.xml"
+    },
+    {
+        "merged": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pref_esportes.xml",
+        "source": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\src\\main\\res\\layout\\pref_esportes.xml"
+    },
+    {
+        "merged": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\acess__audicao.xml",
+        "source": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\src\\main\\res\\layout\\acess__audicao.xml"
+    },
+    {
+        "merged": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login.xml",
+        "source": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\src\\main\\res\\layout\\login.xml"
+    },
+    {
+        "merged": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\home.xml",
+        "source": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\src\\main\\res\\layout\\home.xml"
+    },
+    {
+        "merged": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pref_jogos.xml",
+        "source": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\src\\main\\res\\layout\\pref_jogos.xml"
+    },
+    {
+        "merged": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\acess__visao.xml",
+        "source": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\src\\main\\res\\layout\\acess__visao.xml"
+    },
+    {
+        "merged": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activate_bluetooth_dialog.xml",
+        "source": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\src\\main\\res\\layout\\activate_bluetooth_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\acess__percepcaocores.xml",
+        "source": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\src\\main\\res\\layout\\acess__percepcaocores.xml"
+    },
+    {
+        "merged": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pref_filmes.xml",
+        "source": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\src\\main\\res\\layout\\pref_filmes.xml"
+    },
+    {
+        "merged": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\senha_acesso.xml",
+        "source": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\src\\main\\res\\layout\\senha_acesso.xml"
+    },
+    {
+        "merged": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\config.xml",
+        "source": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\src\\main\\res\\layout\\config.xml"
+    },
+    {
+        "merged": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\escolha_dados_importacao.xml",
+        "source": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\src\\main\\res\\layout\\escolha_dados_importacao.xml"
+    },
+    {
+        "merged": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pref_input_output.xml",
+        "source": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\src\\main\\res\\layout\\pref_input_output.xml"
+    },
+    {
+        "merged": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\recuperar_senha.xml",
+        "source": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\src\\main\\res\\layout\\recuperar_senha.xml"
+    },
+    {
+        "merged": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\saiba_mais.xml",
+        "source": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\src\\main\\res\\layout\\saiba_mais.xml"
+    },
+    {
+        "merged": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pre_importacao.xml",
+        "source": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\src\\main\\res\\layout\\pre_importacao.xml"
+    },
+    {
+        "merged": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\welcome.xml",
+        "source": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\src\\main\\res\\layout\\welcome.xml"
+    },
+    {
+        "merged": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pref_notifications.xml",
+        "source": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\src\\main\\res\\layout\\pref_notifications.xml"
+    },
+    {
+        "merged": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dados_pessoais.xml",
+        "source": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\src\\main\\res\\layout\\dados_pessoais.xml"
+    },
+    {
+        "merged": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\caracteristicas.xml",
+        "source": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\src\\main\\res\\layout\\caracteristicas.xml"
+    },
+    {
+        "merged": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pref_saude.xml",
+        "source": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\src\\main\\res\\layout\\pref_saude.xml"
+    },
+    {
+        "merged": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\preferencias_main.xml",
+        "source": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\src\\main\\res\\layout\\preferencias_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pref_layout.xml",
+        "source": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\src\\main\\res\\layout\\pref_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pref_apresentacao_info.xml",
+        "source": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\src\\main\\res\\layout\\pref_apresentacao_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pref_gen_musical.xml",
+        "source": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\src\\main\\res\\layout\\pref_gen_musical.xml"
+    },
+    {
+        "merged": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\habilidades.xml",
+        "source": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\src\\main\\res\\layout\\habilidades.xml"
+    },
+    {
+        "merged": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\politica_privacidade.xml",
+        "source": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\src\\main\\res\\layout\\politica_privacidade.xml"
+    },
+    {
+        "merged": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\exporta_perfil.xml",
+        "source": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\src\\main\\res\\layout\\exporta_perfil.xml"
+    },
+    {
+        "merged": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pos_importacao.xml",
+        "source": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\src\\main\\res\\layout\\pos_importacao.xml"
+    },
+    {
+        "merged": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\acess__fala.xml",
+        "source": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\src\\main\\res\\layout\\acess__fala.xml"
+    },
+    {
+        "merged": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\acess__locomocao.xml",
+        "source": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\src\\main\\res\\layout\\acess__locomocao.xml"
+    }
+]

@@ -1,0 +1,258 @@
+//Mapeamento das preferências do usuário (filmes, músicas, jogos, recreação e esportes)
+//Preferências versus Predicate
+package br.dc.ufscar.whoami.map;
+
+import java.util.HashMap;
+
+public class PreferencesPredicatesMap {
+
+	public HashMap<String, String> getMapTables() {
+		HashMap<String, String> hash = new HashMap<String, String>();
+
+		hash.put("AbilityToSee", "Abilities");
+		hash.put("AbilityToHear", "Abilities");
+		hash.put("AbilityToTalk", "Abilities");
+		hash.put("AbilityToTouch", "Abilities");
+		hash.put("AbilityToWalk", "Abilities");
+		hash.put("AbilityToDifferentiateColors", "Abilities");
+		hash.put("ReadingSkills", "Abilities");
+		hash.put("TypingSkills", "Abilities");
+
+		hash.put("WritingSkills", "Demographic");
+		hash.put("Age", "Demographic");
+		hash.put("EducationLevel", "Demographic");
+		hash.put("Employment", "Demographic");
+		hash.put("FirstLanguage", "Demographic");
+		hash.put("SecondLanguage", "Demographic");
+		hash.put("Gender", "Demographic");
+
+		hash.put("Anger", "EmotionalState");
+		hash.put("Anxiety", "EmotionalState");
+		hash.put("Joy", "EmotionalState");
+		hash.put("Happiness", "EmotionalState");
+		hash.put("Sadness", "EmotionalState");
+		hash.put("Excitement", "EmotionalState");
+
+		hash.put("BloodPressure", "Health");
+		hash.put("Diabetes", "Health");
+		hash.put("ABO", "Health");
+		hash.put("RhFactor", "Health");
+		hash.put("Vegetarian", "Health");
+
+		hash.put("Anxious", "Characteristics");
+		hash.put("Calm", "Characteristics");
+		hash.put("Kind", "Characteristics");
+		hash.put("Moody", "Characteristics");
+		hash.put("Organized", "Characteristics");
+		hash.put("Quiet", "Characteristics");
+		hash.put("Reserved", "Characteristics");
+		hash.put("Shy", "Characteristics");
+		hash.put("Sympathetic", "Characteristics");
+		hash.put("Talkative", "Characteristics");
+		hash.put("Tense", "Characteristics");
+
+		hash.put("Action", "Interest");
+		hash.put("Animation", "Interest");
+		hash.put("Martial Arts", "Interest");
+		hash.put("Adventure", "Interest");
+		hash.put("Classics", "Interest");
+		hash.put("Comedy", "Interest");
+		hash.put("Children And Family", "Interest");
+		hash.put("Crime", "Interest");
+		hash.put("Cult", "Interest");
+		hash.put("Documentary", "Interest");
+		hash.put("Drama", "Interest");
+		hash.put("Sports And Exercise", "Interest");
+		hash.put("Foreign", "Interest");
+		hash.put("Fantasy", "Interest");
+		hash.put("Science Fiction", "Interest");
+		hash.put("Westerns", "Interest");
+		hash.put("Television", "Interest");
+		hash.put("War", "Interest");
+		hash.put("Mystery", "Interest");
+		hash.put("Music And Concert", "Interest");
+		hash.put("Musicals", "Interest");
+		hash.put("Soaps", "Interest");
+		hash.put("Romance", "Interest");
+		hash.put("Thriller", "Interest");
+		hash.put("Horror", "Interest");
+
+		hash.put("Blues", "Interest");
+		hash.put("Celtic", "Interest");
+		hash.put("Classical", "Interest");
+		hash.put("Concerts", "Interest");
+		hash.put("Choral Music", "Interest");
+		hash.put("Country", "Interest");
+		hash.put("Dance", "Interest");
+		hash.put("Eletronic", "Interest");
+		hash.put("World Music", "Interest");
+		hash.put("Folk", "Interest");
+		hash.put("Religion", "Interest");
+		hash.put("Heavy Metal", "Interest");
+		hash.put("Hymns", "Interest");
+		hash.put("Hip-Hop", "Interest");
+		hash.put("Humor And Comedy", "Interest");
+		hash.put("Indian", "Interest");
+		hash.put("Improvisation", "Interest");
+		hash.put("Jazz", "Interest");
+		hash.put("Jewish", "Interest");
+		hash.put("Karaoke", "Interest");
+		hash.put("Lyrics", "Interest");
+		hash.put("Composers", "Interest");
+		hash.put("Musicals", "Interest");
+		hash.put("Children", "Interest");
+		hash.put("New Age", "Interest");
+		hash.put("Opera", "Interest");
+		hash.put("Symphony Orchestras", "Interest");
+		hash.put("Popular", "Interest");
+		hash.put("Psychedelic", "Interest");
+		hash.put("Punk Rock", "Interest");
+		hash.put("Quartets", "Interest");
+		hash.put("Ragtime", "Interest");
+		hash.put("Rap", "Interest");
+		hash.put("Reggae", "Interest");
+		hash.put("Rock", "Interest");
+		hash.put("Rhythm-n-Blues", "Interest");
+		hash.put("Western Swing", "Interest");
+
+		hash.put("Action", "Interest");
+		hash.put("Adventure", "Interest");
+		hash.put("Racing", "Interest");
+		hash.put("Sports", "Interest");
+		hash.put("Strategy", "Interest");
+		hash.put("Arcade", "Interest");
+		hash.put("Platform", "Interest");
+		hash.put("Board Games", "Interest");
+		hash.put("Children", "Interest");
+		hash.put("Fighting", "Interest");
+		hash.put("Puzzle", "Interest");
+		hash.put("Roleplaying", "Interest");
+		hash.put("Simulation", "Interest");
+		hash.put("Shoot-Em-Up", "Interest");
+
+		hash.put("Camping", "Interest");
+		hash.put("Pets", "Interest");
+		hash.put("Aquariums", "Interest");
+		hash.put("Crafts", "Interest");
+		hash.put("Toys", "Interest");
+		hash.put("Hunting", "Interest");
+		hash.put("Hiking", "Interest");
+		hash.put("Bicycling", "Interest");
+		hash.put("Circus", "Interest");
+		hash.put("Collecting", "Interest");
+		hash.put("Dance", "Interest");
+		hash.put("Puppets", "Interest");
+		hash.put("Fairs", "Interest");
+		hash.put("Festivals", "Interest");
+		hash.put("Movies", "Interest");
+		hash.put("Fireworks", "Interest");
+		hash.put("Photography", "Interest");
+		hash.put("Art Galleries", "Interest");
+		hash.put("Humor", "Interest");
+		hash.put("Gardening", "Interest");
+		hash.put("Games", "Interest");
+		hash.put("Fortune-telling", "Interest");
+		hash.put("Gambling", "Interest");
+		hash.put("Word Games", "Interest");
+		hash.put("Books", "Interest");
+		hash.put("Lotteries", "Interest");
+		hash.put("Juggling", "Interest");
+		hash.put("Backpacking", "Interest");
+		hash.put("Railroad Models", "Interest");
+		hash.put("Roller Coasters", "Interest");
+		hash.put("Museums", "Interest");
+		hash.put("Knots And Splices", "Interest");
+		hash.put("Bird Watching", "Interest");
+		hash.put("Crossword Puzzles", "Interest");
+		hash.put("Fishing", "Interest");
+		hash.put("Kites", "Interest");
+		hash.put("Beaches", "Interest");
+		hash.put("Jigsaw Puzzles", "Interest");
+		hash.put("Radio", "Interest");
+		hash.put("Rafting", "Interest");
+		hash.put("Television", "Interest");
+		hash.put("Card Tricks", "Interest");
+		hash.put("Magic tricks", "Interest");
+		hash.put("Travel", "Interest");
+		hash.put("Zoos", "Interest");
+
+		hash.put("'Athletics", "Interest");
+		hash.put("Automobile Racing", "Interest");
+		hash.put("Badminton", "Interest");
+		hash.put("Basketball", "Interest");
+		hash.put("Baseball", "Interest");
+		hash.put("Boating", "Interest");
+		hash.put("Bowling", "Interest");
+		hash.put("Boxing", "Interest");
+		hash.put("Boomerangs", "Interest");
+		hash.put("Whitewater Kayaking", "Interest");
+		hash.put("Karting", "Interest");
+		hash.put("Cycling", "Interest");
+		hash.put("Running", "Interest");
+		hash.put("Horse Racing", "Interest");
+		hash.put("Sled Dog Racing", "Interest");
+		hash.put("Cricket", "Interest");
+		hash.put("Flying Discs", "Interest");
+		hash.put("Climbing", "Interest");
+		hash.put("Fencing", "Interest");
+		hash.put("Winter Sports", "Interest");
+		hash.put("Skiing", "Interest");
+		hash.put("Cross Country Skiing", "Interest");
+		hash.put("Soccer", "Interest");
+		hash.put("Footbal", "Interest");
+		hash.put("Gymnastics", "Interest");
+		hash.put("Golf", "Interest");
+		hash.put("Hockey", "Interest");
+		hash.put("Field Hockey", "Interest");
+		hash.put("Ice Hockey", "Interest");
+		hash.put("Sailing", "Interest");
+		hash.put("Olympics", "Interest");
+		hash.put("Luge", "Interest");
+		hash.put("Wrestling", "Interest");
+		hash.put("Scuba Diving", "Interest");
+		hash.put("Motorcycles", "Interest");
+		hash.put("Swimming", "Interest");
+		hash.put("Skydiving", "Interest");
+		hash.put("Skating", "Interest");
+		hash.put("Ice Skating", "Interest");
+		hash.put("Rodeos", "Interest");
+		hash.put("Skateboarding", "Interest");
+		hash.put("Snowboarding", "Interest");
+		hash.put("Snowshoeing", "Interest");
+		hash.put("Softball", "Interest");
+		hash.put("Surfing", "Interest");
+		hash.put("Tennis", "Interest");
+		hash.put("Table Tennis", "Interest");
+		hash.put("Triathlon", "Interest");
+		hash.put("Volleyball", "Interest");
+		hash.put("Windsurfing", "Interest");
+		hash.put("Chess", "Interest");
+
+		hash.put("Avatar", "InterfacePreferences");
+		hash.put("SoundNotif", "InterfacePreferences");
+		hash.put("VisualNotif", "InterfacePreferences");
+		hash.put("FontSize", "InterfacePreferences");
+		hash.put("GraphicalElementSize", "InterfacePreferences");
+		hash.put("Contrast", "InterfacePreferences");
+		hash.put("VoiceInput", "InterfacePreferences");
+		hash.put("Touch", "InterfacePreferences");
+		hash.put("Visual", "InterfacePreferences");
+		hash.put("VoiceOutput", "InterfacePreferences");
+		hash.put("Text", "InterfacePreferences");
+		hash.put("Image", "InterfacePreferences");
+		hash.put("Graphic", "InterfacePreferences");
+		hash.put("Color", "InterfacePreferences");
+		hash.put("Sound", "InterfacePreferences");
+		hash.put("Color", "InterfacePreferences");
+		hash.put("Sound", "InterfacePreferences");
+		hash.put("SignLanguage", "InterfacePreferences");
+
+		return hash;
+	}
+
+	public String retornaTabela(String predicate) {
+		HashMap<String, String> mapTables = getMapTables();
+		String table = mapTables.get(predicate);
+		return table;
+	}
+}

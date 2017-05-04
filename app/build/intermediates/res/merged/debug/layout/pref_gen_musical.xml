@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/generos_musicais"
+            android:textSize="17sp" />
+
+        <CheckBox
+            android:id="@+id/musica1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefGenMusical"
+            android:text="@string/blues" />
+
+        <CheckBox
+            android:id="@+id/musica2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefGenMusical"
+            android:text="@string/celta" />
+
+        <CheckBox
+            android:id="@+id/musica3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefGenMusical"
+            android:text="@string/classica" />
+
+        <CheckBox
+            android:id="@+id/musica4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefGenMusical"
+            android:text="@string/concertos" />
+
+        <CheckBox
+            android:id="@+id/musica5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefGenMusical"
+            android:text="@string/coral" />
+
+        <CheckBox
+            android:id="@+id/musica6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefGenMusical"
+            android:text="@string/country" />
+
+        <CheckBox
+            android:id="@+id/musica7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefGenMusical"
+            android:text="@string/dance" />
+
+        <CheckBox
+            android:id="@+id/musica8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefGenMusical"
+            android:text="@string/eletronica" />
+
+        <CheckBox
+            android:id="@+id/musica9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefGenMusical"
+            android:text="@string/folclorica" />
+
+        <CheckBox
+            android:id="@+id/musica10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefGenMusical"
+            android:text="@string/folk" />
+
+        <CheckBox
+            android:id="@+id/musica11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefGenMusical"
+            android:text="@string/gospel" />
+
+        <CheckBox
+            android:id="@+id/musica12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefGenMusical"
+            android:text="@string/heavy_metal" />
+
+        <CheckBox
+            android:id="@+id/musica13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/hinos" />
+
+        <CheckBox
+            android:id="@+id/musica14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefGenMusical"
+            android:text="@string/hip_hop" />
+
+        <CheckBox
+            android:id="@+id/musica15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefGenMusical"
+            android:text="@string/humor_e_comedia" />
+
+        <CheckBox
+            android:id="@+id/musica16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefGenMusical"
+            android:text="@string/indiana" />
+
+        <CheckBox
+            android:id="@+id/musica17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefGenMusical"
+            android:text="@string/improvisacao" />
+
+        <CheckBox
+            android:id="@+id/musica18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefGenMusical"
+            android:text="@string/jazz" />
+
+        <CheckBox
+            android:id="@+id/musica19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefGenMusical"
+            android:text="@string/judaica" />
+
+        <CheckBox
+            android:id="@+id/musica20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefGenMusical"
+            android:text="@string/karaoke" />
+
+        <CheckBox
+            android:id="@+id/musica21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefGenMusical"
+            android:text="@string/lirica" />
+
+        <CheckBox
+            android:id="@+id/musica22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefGenMusical"
+            android:text="@string/musica_de_compositores" />
+
+        <CheckBox
+            android:id="@+id/musica23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefGenMusical"
+            android:text="@string/musicais" />
+
+        <CheckBox
+            android:id="@+id/musica24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefGenMusical"
+            android:text="@string/musica_para_criancas" />
+
+        <CheckBox
+            android:id="@+id/musica25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefGenMusical"
+            android:text="@string/new_age" />
+
+        <CheckBox
+            android:id="@+id/musica26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefGenMusical"
+            android:text="@string/opera" />
+
+        <CheckBox
+            android:id="@+id/musica27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefGenMusical"
+            android:text="@string/orquestras_sinfonicas" />
+
+        <CheckBox
+            android:id="@+id/musica28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefGenMusical"
+            android:text="@string/popular" />
+
+        <CheckBox
+            android:id="@+id/musica29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefGenMusical"
+            android:text="@string/psicodelica" />
+
+        <CheckBox
+            android:id="@+id/musica30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefGenMusical"
+            android:text="@string/punk_rock" />
+
+        <CheckBox
+            android:id="@+id/musica31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefGenMusical"
+            android:text="@string/quartetos" />
+
+        <CheckBox
+            android:id="@+id/musica32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefGenMusical"
+            android:text="@string/ragtime" />
+
+        <CheckBox
+            android:id="@+id/musica33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefGenMusical"
+            android:text="@string/rap" />
+
+        <CheckBox
+            android:id="@+id/musica34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefGenMusical"
+            android:text="@string/reggae" />
+
+        <CheckBox
+            android:id="@+id/musica35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefGenMusical"
+            android:text="@string/rock" />
+
+        <CheckBox
+            android:id="@+id/musica36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefGenMusical"
+            android:text="@string/r_and_b" />
+
+        <CheckBox
+            android:id="@+id/musica37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefGenMusical"
+            android:text="@string/western_swing" />
+
+        <Button
+            android:id="@+id/salvar_pref_musicas"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/botao_configuracoes"
+            android:text="@string/proximo"
+            android:textColor="#FFFFFF" />
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:max="5"
+            android:progress="1" />
+    </LinearLayout>
+
+</ScrollView>

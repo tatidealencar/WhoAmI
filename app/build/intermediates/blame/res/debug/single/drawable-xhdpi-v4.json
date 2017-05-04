@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icone_logo.png",
+        "source": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\src\\main\\res\\drawable-xhdpi\\icone_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\whoami_logo.png",
+        "source": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\src\\main\\res\\drawable-xhdpi\\whoami_logo.png"
+    }
+]

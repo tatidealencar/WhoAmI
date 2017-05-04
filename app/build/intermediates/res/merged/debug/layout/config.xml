@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".Home" >
+
+    <Button
+        android:id="@+id/acessibilidade"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/botao_configuracoes"
+        android:onClick="onClickConfiguracoes"
+        android:text="@string/habilidades_e_capacidades"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/dados_pessoais"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/botao_configuracoes"
+        android:onClick="onClickConfiguracoes"
+        android:text="@string/dados_pessoais"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/caracteristicas"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/botao_configuracoes"
+        android:onClick="onClickConfiguracoes"
+        android:text="@string/caracteristicas"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/preferencias"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/botao_configuracoes"
+        android:onClick="onClickConfiguracoes"
+        android:text="@string/preferencias"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/uso_facebook"
+        android:layout_width="750dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/botao_configuracoes"
+        android:onClick="onClickConfiguracoes"
+        android:text="@string/uso_facebook"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

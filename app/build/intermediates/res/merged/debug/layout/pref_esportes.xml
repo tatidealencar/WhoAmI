@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/esportes"
+            android:textSize="17sp" />
+
+        <CheckBox
+            android:id="@+id/esporte1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/atletismo" />
+
+        <CheckBox
+            android:id="@+id/esporte2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/automobilismo" />
+
+        <CheckBox
+            android:id="@+id/esporte3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/badminton" />
+
+        <CheckBox
+            android:id="@+id/esporte4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/basquetebol" />
+
+        <CheckBox
+            android:id="@+id/esporte5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/beisebol" />
+
+        <CheckBox
+            android:id="@+id/esporte6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/boating" />
+
+        <CheckBox
+            android:id="@+id/esporte7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/boliche" />
+
+        <CheckBox
+            android:id="@+id/esporte8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/boxe" />
+
+        <CheckBox
+            android:id="@+id/esporte9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/bumerangue" />
+
+        <CheckBox
+            android:id="@+id/esporte10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/canoagem" />
+
+        <CheckBox
+            android:id="@+id/esporte11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/cartismo" />
+
+        <CheckBox
+            android:id="@+id/esporte12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/ciclismo" />
+
+        <CheckBox
+            android:id="@+id/esporte13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/corrida" />
+
+        <CheckBox
+            android:id="@+id/esporte14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/corrida_de_cavalos" />
+
+        <CheckBox
+            android:id="@+id/esporte15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/corridas_de_treno" />
+
+        <CheckBox
+            android:id="@+id/esporte16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/criquete" />
+
+        <CheckBox
+            android:id="@+id/esporte17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/discos" />
+
+        <CheckBox
+            android:id="@+id/esporte18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/escalada" />
+
+        <CheckBox
+            android:id="@+id/esporte19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/esgrima" />
+
+        <CheckBox
+            android:id="@+id/esporte20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/esportes_de_inverno" />
+
+        <CheckBox
+            android:id="@+id/esporte21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/esqui" />
+
+        <CheckBox
+            android:id="@+id/esporte22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/esqui_cross_country" />
+
+        <CheckBox
+            android:id="@+id/esporte23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/futebol" />
+
+        <CheckBox
+            android:id="@+id/esporte24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/futebol_americano" />
+
+        <CheckBox
+            android:id="@+id/esporte25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/ginastica" />
+
+        <CheckBox
+            android:id="@+id/esporte26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/golfe" />
+
+        <CheckBox
+            android:id="@+id/esporte27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/hoquei" />
+
+        <CheckBox
+            android:id="@+id/esporte28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/hoquei_em_campo" />
+
+        <CheckBox
+            android:id="@+id/esporte29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/hoquei_sobre_o_gelo" />
+
+        <CheckBox
+            android:id="@+id/esporte30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/iatismo" />
+
+        <CheckBox
+            android:id="@+id/esporte31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/jogos_olimpicos" />
+
+        <CheckBox
+            android:id="@+id/esporte32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/luge" />
+
+        <CheckBox
+            android:id="@+id/esporte33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/luta" />
+
+        <CheckBox
+            android:id="@+id/esporte34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/mergulho" />
+
+        <CheckBox
+            android:id="@+id/esporte35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/motociclismo" />
+
+        <CheckBox
+            android:id="@+id/esporte36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/natacao" />
+
+        <CheckBox
+            android:id="@+id/esporte37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/para_quedismo" />
+
+        <CheckBox
+            android:id="@+id/esporte38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/patinacao" />
+
+        <CheckBox
+            android:id="@+id/esporte39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/patinacao_no_gelo" />
+
+        <CheckBox
+            android:id="@+id/esporte40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/rodeios" />
+
+        <CheckBox
+            android:id="@+id/esporte41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/skateboarding" />
+
+        <CheckBox
+            android:id="@+id/esporte42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/snowboarding" />
+
+        <CheckBox
+            android:id="@+id/esporte43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/snowshoeing" />
+
+        <CheckBox
+            android:id="@+id/esporte44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/softbol" />
+
+        <CheckBox
+            android:id="@+id/esporte45"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/surfe" />
+
+        <CheckBox
+            android:id="@+id/esporte46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/tenis" />
+
+        <CheckBox
+            android:id="@+id/esporte47"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/tenis_de_mesa" />
+
+        <CheckBox
+            android:id="@+id/esporte48"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/triatlo" />
+
+        <CheckBox
+            android:id="@+id/esporte49"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/voleibol" />
+
+        <CheckBox
+            android:id="@+id/esporte50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/windsurf" />
+
+        <CheckBox
+            android:id="@+id/esporte51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPrefEsportes"
+            android:text="@string/xadrez" />
+
+        <Button
+            android:id="@+id/salvar_pref_esportes"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/botao_configuracoes"
+            android:text="@string/proximo"
+            android:textColor="#FFFFFF" />
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:max="5"
+            android:progress="4" />
+    </LinearLayout>
+
+</ScrollView>

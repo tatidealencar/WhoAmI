@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp" >
+
+        <TextView
+            android:id="@+id/textViewIdade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:paddingTop="40dp"
+            android:text="@string/idade"
+            android:textSize="17sp" />
+
+        <EditText
+            android:id="@+id/idade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="3"
+            android:inputType="number"
+            android:maxLength="3" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textViewSexo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:paddingTop="20dp"
+            android:text="@string/sexo"
+            android:textSize="17sp" />
+
+        <RadioGroup
+            android:id="@+id/botoes_radio_sexo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/masculino"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/masculino" />
+
+            <RadioButton
+                android:id="@+id/feminino"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/feminino" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/TextViewLingua1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:paddingTop="20dp"
+            android:text="@string/primeira_lingua"
+            android:textSize="17sp" />
+
+        <Spinner
+            android:id="@+id/primeira_lingua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/TextViewLingua2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:paddingTop="20dp"
+            android:text="@string/segunda_lingua"
+            android:textSize="17sp" />
+
+        <Spinner
+            android:id="@+id/segunda_lingua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/TextViewEscolaridade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:paddingTop="40dp"
+            android:text="@string/nivel_de_escolaridade"
+            android:textSize="17sp" />
+
+        <RadioGroup
+            android:id="@+id/botoes_radio_escolaridade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/sem_escolaridade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sem_escolaridade" />
+
+            <RadioButton
+                android:id="@+id/ensino_fundamental"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ensino_fundamental" />
+
+            <RadioButton
+                android:id="@+id/ensino_medio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ensino_medio" />
+
+            <RadioButton
+                android:id="@+id/ensino_superior"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ensino_superior" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/TextViewOcupacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:paddingTop="20dp"
+            android:text="@string/ocupacao"
+            android:textSize="17sp" />
+
+        <EditText
+            android:id="@+id/ocupacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/salvar_dados_pessoais1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/botao_configuracoes"
+            android:onClick="onClickSalvaDP"
+            android:text="@string/salvar"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</ScrollView>

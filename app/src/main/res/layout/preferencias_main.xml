@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".PreferenciasMain" >
+
+    <Button
+        android:id="@+id/pref_interface"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/botao_configuracoes"
+        android:onClick="onClickPreferencias"
+        android:text="@string/pref_interface"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/interesses"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/botao_configuracoes"
+        android:onClick="onClickPreferencias"
+        android:text="@string/interesses"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/saude"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/botao_configuracoes"
+        android:onClick="onClickPreferencias"
+        android:text="@string/saude"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

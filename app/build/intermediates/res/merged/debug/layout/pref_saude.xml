@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp" >
+
+        <TextView
+            android:id="@+id/TextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="sans-serif"
+            android:gravity="left"
+            android:paddingTop="40dp"
+            android:text="@string/pressao_arterial"
+            android:textSize="17sp" />
+
+        <RadioGroup
+            android:id="@+id/pressao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/pressao_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pressao_normal_" />
+
+            <RadioButton
+                android:id="@+id/pressao_baixa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hipotensao" />
+
+            <RadioButton
+                android:id="@+id/pressao_alta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hipertensao" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/TextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="sans-serif"
+            android:gravity="left"
+            android:paddingTop="20dp"
+            android:text="@string/diabetico"
+            android:textSize="17sp" />
+
+        <RadioGroup
+            android:id="@+id/diabetes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/diabetes_sim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sim" />
+
+            <RadioButton
+                android:id="@+id/diabetes_nao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nao" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/TextView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="sans-serif"
+            android:gravity="left"
+            android:paddingTop="20dp"
+            android:text="@string/tipo_sanguineo"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/TextView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="sans-serif"
+            android:gravity="left"
+            android:text="@string/abo"
+            android:textSize="17sp" />
+
+        <RadioGroup
+            android:id="@+id/tipo_sanguineo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/tipo_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="15dp"
+                android:text="@string/tipo_sanguineo_a" />
+
+            <RadioButton
+                android:id="@+id/tipo_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="15dp"
+                android:text="@string/tipo_sanguineo_b" />
+
+            <RadioButton
+                android:id="@+id/tipo_ab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="15dp"
+                android:text="@string/tipo_sanguineo_ab" />
+
+            <RadioButton
+                android:id="@+id/tipo_o"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="15dp"
+                android:text="@string/tipo_sanguineo_o" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/TextView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="sans-serif"
+            android:gravity="left"
+            android:paddingTop="10dp"
+            android:text="@string/fator_rh"
+            android:textSize="17sp" />
+
+        <RadioGroup
+            android:id="@+id/fator_rh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/rh_positivo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/positivo" />
+
+            <RadioButton
+                android:id="@+id/rh_negativo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/negativo" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/TextView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="sans-serif"
+            android:gravity="left"
+            android:paddingTop="20dp"
+            android:text="@string/vegetarianismo"
+            android:textSize="17sp" />
+
+        <RadioGroup
+            android:id="@+id/vegetarianismo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/nenhum_vegetarianismo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nao_sou_vegetariano" />
+
+            <RadioButton
+                android:id="@+id/ovo_vegetarianismo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ovovegetarianismo" />
+
+            <RadioButton
+                android:id="@+id/lacto_vegetarianismo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lactovegetarianismo" />
+
+            <RadioButton
+                android:id="@+id/ovo_lacto_vegetarianismo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ovolactovegetarianismo" />
+
+            <RadioButton
+                android:id="@+id/semiestrito"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vegetarianismo_semiestrito" />
+
+            <RadioButton
+                android:id="@+id/estrito"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vegetarianismo_estrito" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/salvar_vegetarianismo"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/botao_configuracoes"
+            android:text="@string/salvar"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</ScrollView>

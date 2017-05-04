@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\circulo_verde.xml",
+        "source": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\src\\main\\res\\drawable-nodpi\\circulo_verde.xml"
+    },
+    {
+        "merged": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\botao_configuracoes.xml",
+        "source": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\src\\main\\res\\drawable-nodpi\\botao_configuracoes.xml"
+    },
+    {
+        "merged": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\circulo_vermelho.xml",
+        "source": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\src\\main\\res\\drawable-nodpi\\circulo_vermelho.xml"
+    },
+    {
+        "merged": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\border.xml",
+        "source": "C:\\Users\\tatid\\AndroidStudioProjects\\WhoAmI2\\app\\src\\main\\res\\drawable-nodpi\\border.xml"
+    }
+]

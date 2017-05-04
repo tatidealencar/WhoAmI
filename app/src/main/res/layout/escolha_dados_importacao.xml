@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    tools:context=".EscolhaDadosImportacao" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="40dp"
+        android:text="@string/quais_dados_deseja_importar_do_facebook_"
+        android:textSize="17sp" />
+
+    <CheckBox
+        android:id="@+id/caracteristica1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/todos" />
+
+    <CheckBox
+        android:id="@+id/caracteristica2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/informacoes_pessoais" />
+
+    <CheckBox
+        android:id="@+id/caracteristica3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/gosto_musical" />
+
+    <CheckBox
+        android:id="@+id/caracteristica4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/genero_de_filmes_preferidos" />
+
+    <CheckBox
+        android:id="@+id/caracteristica5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/tipos_de_jogos_preferidos" />
+
+    <CheckBox
+        android:id="@+id/caracteristica6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/esportes_praticados" />
+
+    <CheckBox
+        android:id="@+id/caracteristica7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/atividades_de_recreacao_preferidas" />
+
+    <Button
+        android:id="@+id/importar_agora"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/botao_configuracoes"
+        android:text="@string/importar"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

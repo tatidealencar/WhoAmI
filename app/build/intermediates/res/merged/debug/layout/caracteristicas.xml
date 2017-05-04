@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp" >
+
+        <CheckBox
+            android:id="@+id/caracteristica1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:onClick="onClickCaracteristicas"
+            android:text="@string/ansioso" />
+
+        <CheckBox
+            android:id="@+id/caracteristica2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickCaracteristicas"
+            android:text="@string/amavel" />
+
+        <CheckBox
+            android:id="@+id/caracteristica3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickCaracteristicas"
+            android:text="@string/calmo" />
+
+        <CheckBox
+            android:id="@+id/caracteristica4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickCaracteristicas"
+            android:text="@string/comunicativo" />
+
+        <CheckBox
+            android:id="@+id/caracteristica5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickCaracteristicas"
+            android:text="@string/mal_humorado" />
+
+        <CheckBox
+            android:id="@+id/caracteristica6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickCaracteristicas"
+            android:text="@string/organizado" />
+
+        <CheckBox
+            android:id="@+id/caracteristica7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickCaracteristicas"
+            android:text="@string/quieto" />
+
+        <CheckBox
+            android:id="@+id/caracteristica8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickCaracteristicas"
+            android:text="@string/reservado" />
+
+        <CheckBox
+            android:id="@+id/caracteristica9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickCaracteristicas"
+            android:text="@string/simpatico" />
+
+        <CheckBox
+            android:id="@+id/caracteristica10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickCaracteristicas"
+            android:text="@string/tenso" />
+
+        <CheckBox
+            android:id="@+id/caracteristica11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickCaracteristicas"
+            android:text="@string/timido" />
+
+        <Button
+            android:id="@+id/salvar_caracteristicas"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/botao_configuracoes"
+            android:text="@string/salvar"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</ScrollView>
